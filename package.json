@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://greenbookforhealth.github.io/my-project",
+  "homepage": "https://knitex202.github.io/my-project/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

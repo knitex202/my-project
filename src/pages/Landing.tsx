@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
-import greenbookLogo from '../assets/images/greenbook-logo.png';
 import { Users, HeartHandshake, Stethoscope, MapPin, ShieldCheck, Search, BookOpen } from 'lucide-react';
 
 export default function GreenBookLanding() {
@@ -30,7 +29,7 @@ Specialty: ${specialty}`);
         <nav className="container mx-auto flex justify-between items-center py-4 px-6">
           <div className="flex items-center gap-3">
             
-              <img src={greenbookLogo} alt="Green Book for Health logo" className="w-12 h-12 object-contain" />
+              <img src="src\assets\images\greenBook-logo.png" alt="Green Book for Health logo" className="w-12 h-12 object-contain" />
            
             <h1 className="text-2xl font-bold text-emerald-600">Green Book <span className="text-gray-700 font-normal">for</span> <span className="text-purple-900">Health</span></h1>
           </div>
