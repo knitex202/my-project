@@ -1,5 +1,4 @@
-@"
-name: Deploy to GitHub Pages (Vite)
+﻿name: Deploy to GitHub Pages (Vite)
 
 on:
   push:
@@ -48,9 +47,8 @@ jobs:
     needs: build
     environment:
       name: github-pages
-      url: \${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-"@ | Set-Content ".github\workflows\deploy.yml" -Encoding UTF8
